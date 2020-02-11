@@ -129,4 +129,38 @@ table {
   border-spacing: 0;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.navigation__navbar {
+  display: none;
+}
+
+.hero {
+  padding: 1.5rem;
+}
+
+.hero__title {
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero__text {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -9,6 +9,8 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/0013c2e76c.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,500,600,700,800,900&display=swap" rel="stylesheet" />
     <!-- Site styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -47,13 +49,18 @@
           </g>
         </svg>
       </div>
-      <ul class="navigation__navbar">
-        <li class="navigation__link">Acerca de</li>
-        <li class="navigation__link">Características</li>
-        <li class="navigation__link">Precios</li>
-      </ul>
-      <button class="button">Iniciar Sesión</button>
-      <button class="button">Regístrate</button>
+      <div class="navigation__burger"><i class="fas fa-bars fa-2x"></i></div>
+      <div class="navigation__navbar">
+        <ul>
+          <li class="navigation__link"><a href="#">Acerca de</a></li>
+          <li class="navigation__link"><a href="#">Características</a></li>
+          <li class="navigation__link"><a href="#">Precios</a></li>
+        </ul>
+        <div class="navigation__buttons">
+          <button class="button">Iniciar Sesión</button>
+          <button class="button">Regístrate</button>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero section -->

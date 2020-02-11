@@ -1,8 +1,12 @@
 .navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.navigation__navbar {
+  display: none;
 }
 .navigation__link {
 }
-.navigation__login {
-}
-.navigation__register {
+.navigation__buttons {
 }

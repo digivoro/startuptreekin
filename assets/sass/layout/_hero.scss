@@ -1,0 +1,18 @@
+.hero {
+  padding: 1.5rem;
+}
+
+.hero__title {
+  font-size: $x3large;
+  font-family: $raleway;
+  font-weight: $bold;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero__text {
+  font-size: $medium;
+  font-family: $open-sans;
+  font-weight: 600;
+  line-height: 2rem;
+}
