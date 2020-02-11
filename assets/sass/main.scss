@@ -11,15 +11,11 @@
 @import "base/typography";
 
 @import "layout/navigation";
-@import "layout/header";
+@import "layout/hero";
 @import "layout/footer";
-@import "layout/sidebar";
-@import "layout/forms";
 
 @import "components/buttons";
-@import "components/carousel";
-@import "components/cover";
-@import "components/dropdown";
+@import "components/cards";
 
 @import "pages/home";
 @import "pages/contact";

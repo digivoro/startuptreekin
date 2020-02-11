@@ -1,0 +1,7 @@
+<svg width="318" height="165" xmlns="http://www.w3.org/2000/svg">
+    <g class="bar-graph" fill-rule="evenodd">
+        <path class="a-bar" fill="#EE9480" d="M10.949 53h34.778v108H10.949zM63.613 0h34.778v161H63.613zM116.276 32h34.778v129h-34.778z"/>
+        <path class="b-bar" fill="#2AB7CA" d="M168.94 53h34.778v108H168.94zM221.603 28h34.778v133h-34.778zM274.267 73h34.778v88h-34.778z"/>
+        <path class="plane" d="M3 162.5h312.503" stroke="#979797" stroke-width="5" stroke-linecap="square"/>
+    </g>
+</svg>

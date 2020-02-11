@@ -12,9 +12,110 @@
     <!-- Site styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
-    <!-- Site scripts -->
 
+  <body>
+    <!-- Navigation -->
+    <nav class="navigation">
+      <div class="navigation__logo">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+          <title>Logo</title>
+          <desc>Created with Sketch.</desc>
+          <defs>
+            <polygon id="path-1" points="29 12.6197183 19.205298 12.6197183 19.205298 26.2163315 19.205298 40 9.84271523 40 9.84271523 12.6197183 0 12.6197183 0 4 29 4"></polygon>
+            <path
+              d="M35,13 L35,4 L36,4 L36,13 L35,13 Z M35,2 L35,0 L36,0 L36,2 L35,2 Z M48,13 L46.2516556,13 L46.2516556,8.05084746 C46.2516556,7.10169017 46.0827831,6.41243153 45.7450331,5.98305085 C45.4072831,5.55367017 44.8940432,5.33898305 44.205298,5.33898305 C43.8476803,5.33898305 43.490068,5.39830449 43.1324503,5.51694915 C42.7748326,5.63559381 42.4370877,5.79660915 42.1192053,6 C41.8013229,6.20339085 41.52318,6.44632627 41.2847682,6.72881356 C41.0463564,7.01130085 40.8675503,7.3220322 40.7483444,7.66101695 L40.7483444,13 L39,13 L39,4.15254237 L40.589404,4.15254237 L40.589404,6.05084746 C41.0000021,5.42937542 41.5927114,4.93220525 42.3675497,4.55932203 C43.142388,4.18643881 43.9867504,4 44.9006623,4 C45.4966917,4 45.9933755,4.09321941 46.3907285,4.27966102 C46.7880815,4.46610263 47.1059591,4.72598703 47.3443709,5.05932203 C47.5827826,5.39265703 47.7516551,5.78530847 47.8509934,6.23728814 C47.9503316,6.6892678 48,7.18078831 48,7.71186441 L48,13 Z"
+              id="path-2"
+            ></path>
+          </defs>
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Desktop-HD" transform="translate(-136.000000, -45.000000)">
+              <g id="header-section" transform="translate(0.000000, 2.000000)">
+                <g id="Logo" transform="translate(136.000000, 43.000000)">
+                  <g id="T">
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <use fill="#011627" xlink:href="#path-1"></use>
+                  </g>
+                  <g id="in">
+                    <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                    <use fill="#000000" xlink:href="#path-2"></use>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <ul class="navigation__navbar">
+        <li class="navigation__link">Acerca de</li>
+        <li class="navigation__link">Características</li>
+        <li class="navigation__link">Precios</li>
+      </ul>
+      <button class="button">Iniciar Sesión</button>
+      <button class="button">Regístrate</button>
+    </nav>
+
+    <!-- Hero section -->
+    <header class="hero">
+      <h1 class="hero__title">Haz Trekking sin Parar</h1>
+      <p class="hero__text">Con Trekk-in the despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</p>
+    </header>
+
+    <!-- Features section -->
+    <section class="features">
+      <h2 class="features__title">Características</h2>
+      <div class="features__graph">
+        <svg width="318" height="165" xmlns="http://www.w3.org/2000/svg">
+          <g class="bar-graph" fill-rule="evenodd">
+            <path class="a-bar" fill="#EE9480" d="M10.949 53h34.778v108H10.949zM63.613 0h34.778v161H63.613zM116.276 32h34.778v129h-34.778z" />
+            <path class="b-bar" fill="#2AB7CA" d="M168.94 53h34.778v108H168.94zM221.603 28h34.778v133h-34.778zM274.267 73h34.778v88h-34.778z" />
+            <path class="plane" d="M3 162.5h312.503" stroke="#979797" stroke-width="5" stroke-linecap="square" />
+          </g>
+        </svg>
+      </div>
+      <h3 class="features__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo iusto, distinctio iure at fugit exercitationem dicta eveniet similique dolor. Blanditiis, eligendi. Accusantium maxime, soluta nihil veritatis facere explicabo animi amet!</h3>
+    </section>
+
+    <!-- Price section -->
+    <section class="price">
+      <h2 class="price__title">Precios</h2>
+      <div class="card">
+        <div class="card__title">Trekk-in Free</div>
+        <div class="card__price">$0 / mes</div>
+        <hr />
+        <ul class="card__list">
+          <li class="card__list-item">Ver mapas creados por usuarios</li>
+          <li class="card__list-item">Concertar con otros usarios</li>
+        </ul>
+        <hr />
+        <button class="card__button button">Obtén Free</button>
+      </div>
+      <div class="card">
+        <div class="card__title">Trekk-in Premium</div>
+        <div class="card__price">$3500 / mes</div>
+        <hr />
+        <ul class="card__list">
+          <li class="card__list-item">Ver mapas creados por usuarios</li>
+          <li class="card__list-item">Concertar con otros usarios</li>
+          <li class="card__list-item">Definir mejores rutas</li>
+          <li class="card__list-item">Mapas offline</li>
+          <li class="card__list-item">Integración con otras aplicaciones</li>
+        </ul>
+        <hr />
+        <button class="card__button button">Obtén Premium</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h4 class="footer__item">Legal</h4>
+      <h4 class="footer__item">Cookies</h4>
+      <h4 class="footer__item">Sobre anuncios</h4>
+      <h4 class="footer__author">&copy; 2018 Trekk-in SPA</h4>
+    </footer>
+
+    <!-- Site scripts -->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
