@@ -1,0 +1,16 @@
+.features {
+  padding: 1.5rem;
+}
+
+.features__title {
+  margin-bottom: 4rem;
+}
+
+.features__graph {
+  svg {
+    width: calc(100vw - 3rem);
+  }
+}
+
+.features__text {
+}
