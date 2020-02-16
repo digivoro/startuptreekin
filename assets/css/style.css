@@ -213,6 +213,20 @@ h2 {
   color: #fff;
 }
 
+.button {
+  border: none;
+  font-family: "Raleway", sans-serif;
+}
+.button--primary {
+  background-color: #2ab7ca;
+  color: #fff;
+}
+
+.button--large {
+  padding: 1rem 0;
+  width: 100%;
+}
+
 .card {
   background-color: #fff;
   margin: 0 1.5rem 4rem;
@@ -230,6 +244,22 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-size: 35px;
   font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.card__list {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 1rem 0 0 2rem;
+  list-style-type: disc;
+}
+
+.card__item-text {
+  font-size: 16px;
+}
+
+.card__list-item {
   margin-bottom: 1.5rem;
 }
 

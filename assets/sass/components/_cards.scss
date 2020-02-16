@@ -21,3 +21,18 @@
   font-weight: $bold;
   margin-bottom: 1.5rem;
 }
+
+.card__list {
+  font-family: $open-sans;
+  font-size: $xsmall;
+  font-weight: 400;
+  padding: 1rem 0 0 2rem;
+  list-style-type: disc;
+}
+.card__item-text {
+  font-size: $medium;
+}
+
+.card__list-item {
+  margin-bottom: 1.5rem;
+}

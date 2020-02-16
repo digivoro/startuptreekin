@@ -1,12 +1,18 @@
 .button {
+  border: none;
+  font-family: $raleway;
   &:hover {
   }
   &:focus {
   }
 }
 .button--primary {
+  background-color: $ball-blue;
+  color: $white;
 }
 .button--large {
+  padding: 1rem 0;
+  width: 100%;
 }
 .button--small {
 }
