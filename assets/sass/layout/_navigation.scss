@@ -4,9 +4,41 @@
   padding: 1.5rem;
 }
 .navigation__navbar {
+  font-family: $open-sans;
   display: none;
 }
-.navigation__link {
+.navigation__link-item {
 }
 .navigation__buttons {
+}
+
+@media (min-width: $sm) {
+  .navigation {
+    display: inline;
+  }
+  .navigation__logo {
+    float: left;
+    margin-left: 10%;
+    margin-right: 1.5rem;
+  }
+  .navigation__burger {
+    display: none;
+  }
+  .navigation__navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation__link-list {
+    display: flex;
+    // justify-content: start;
+  }
+  .navigation__link-item {
+    margin-right: 1rem;
+    a {
+      color: $raising-black;
+    }
+  }
+  .navigation__buttons {
+    margin-right: 10%;
+  }
 }

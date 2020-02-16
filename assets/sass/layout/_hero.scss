@@ -23,3 +23,27 @@
   background-repeat: no-repeat;
   background-size: 200vw;
 }
+@media (min-width: $sm) {
+  .hero {
+    background-image: url("../img/bg-hero.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 865px;
+    // width: 100vw;
+  }
+  .hero__title {
+    padding-left: 10%;
+    width: 30%;
+  }
+  .hero__text {
+    padding-left: 10%;
+    width: 30%;
+  }
+
+  .hero__background {
+    display: none;
+    background-image: none;
+    background-size: 100%;
+    background-position: 0 -300px;
+  }
+}

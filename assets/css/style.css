@@ -159,9 +159,45 @@ h2 {
 }
 
 .navigation__navbar {
+  font-family: "Open Sans", sans-serif;
   display: none;
 }
 
+@media (min-width: 576px) {
+  .navigation {
+    display: inline;
+  }
+
+  .navigation__logo {
+    float: left;
+    margin-left: 10%;
+    margin-right: 1.5rem;
+  }
+
+  .navigation__burger {
+    display: none;
+  }
+
+  .navigation__navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation__link-list {
+    display: flex;
+  }
+
+  .navigation__link-item {
+    margin-right: 1rem;
+  }
+  .navigation__link-item a {
+    color: #221d23;
+  }
+
+  .navigation__buttons {
+    margin-right: 10%;
+  }
+}
 .hero {
   margin-bottom: 2rem;
 }
@@ -188,6 +224,31 @@ h2 {
   background-size: 200vw;
 }
 
+@media (min-width: 576px) {
+  .hero {
+    background-image: url("../img/bg-hero.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 865px;
+  }
+
+  .hero__title {
+    padding-left: 10%;
+    width: 30%;
+  }
+
+  .hero__text {
+    padding-left: 10%;
+    width: 30%;
+  }
+
+  .hero__background {
+    display: none;
+    background-image: none;
+    background-size: 100%;
+    background-position: 0 -300px;
+  }
+}
 .features {
   padding: 2rem;
 }
@@ -254,6 +315,8 @@ h2 {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 2px;
+  background-color: #fff;
+  cursor: pointer;
 }
 .button--primary {
   background-color: #2ab7ca;
@@ -263,6 +326,10 @@ h2 {
 .button--large {
   padding: 1rem 0;
   width: 100%;
+}
+
+.button--small {
+  padding: 0.5rem;
 }
 
 .card {

@@ -4,6 +4,9 @@
   font-size: $small;
   font-weight: 600;
   letter-spacing: 2px;
+  background-color: $white;
+  cursor: pointer;
+
   &:hover {
   }
   &:focus {
@@ -18,4 +21,5 @@
   width: 100%;
 }
 .button--small {
+  padding: 0.5rem;
 }
