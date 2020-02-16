@@ -1,0 +1,16 @@
+.price {
+  background-image: url("../img/bg-price.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-bottom: 1px;
+  // background-size: contain;
+  // background-position-y: top;
+  // background-position-x: center;
+  // padding-top: 3rem;
+}
+
+.price__title {
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+  color: $white;
+}

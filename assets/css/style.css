@@ -200,4 +200,37 @@ h2 {
   width: calc(100vw - 3rem);
 }
 
+.price {
+  background-image: url("../img/bg-price.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-bottom: 1px;
+}
+
+.price__title {
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  margin: 0 1.5rem 4rem;
+  padding: 2.5rem 1rem;
+  border: 1px solid #726f73;
+}
+.card__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card__price {
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

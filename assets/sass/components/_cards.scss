@@ -1,4 +1,23 @@
 .card {
+  background-color: $white;
+  margin: 0 1.5rem 4rem;
+  padding: 2.5rem 1rem;
+  border: 1px solid $nickel;
+
   &:hover {
   }
+}
+
+.card__title {
+  font-family: $open-sans;
+  font-size: $large;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card__price {
+  font-family: $raleway;
+  font-size: $x2large;
+  font-weight: $bold;
+  margin-bottom: 1.5rem;
 }
