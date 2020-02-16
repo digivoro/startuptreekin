@@ -1,0 +1,15 @@
+.footer {
+  padding: 2rem;
+  color: $spanish-gray;
+  background-color: $raising-black;
+  font-family: $raleway;
+  font-size: $xsmall;
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer__left {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}

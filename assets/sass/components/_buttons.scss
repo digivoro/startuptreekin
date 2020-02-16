@@ -1,6 +1,9 @@
 .button {
   border: none;
   font-family: $raleway;
+  font-size: $small;
+  font-weight: 600;
+  letter-spacing: 2px;
   &:hover {
   }
   &:focus {

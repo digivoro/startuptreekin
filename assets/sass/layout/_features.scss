@@ -1,16 +1,30 @@
 .features {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .features__title {
   margin-bottom: 4rem;
 }
 
+.features__subtitle {
+  font-family: $raleway;
+  font-weight: $bold;
+  font-size: $large;
+  margin-bottom: 1rem;
+}
+
 .features__graph {
+  margin-bottom: 2rem;
+  border-bottom: 5px solid $spanish-gray;
   svg {
-    width: calc(100vw - 3rem);
+    width: 100%;
   }
 }
 
 .features__text {
+  font-family: $open-sans;
+  font-weight: $regular;
+  font-size: $medium;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
 }

@@ -189,15 +189,34 @@ h2 {
 }
 
 .features {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .features__title {
   margin-bottom: 4rem;
 }
 
+.features__subtitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.features__graph {
+  margin-bottom: 2rem;
+  border-bottom: 5px solid #8f9199;
+}
 .features__graph svg {
-  width: calc(100vw - 3rem);
+  width: 100%;
+}
+
+.features__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .price {
@@ -213,9 +232,28 @@ h2 {
   color: #fff;
 }
 
+.footer {
+  padding: 2rem;
+  color: #8f9199;
+  background-color: #221d23;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer__left {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
 .button {
   border: none;
   font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 .button--primary {
   background-color: #2ab7ca;
