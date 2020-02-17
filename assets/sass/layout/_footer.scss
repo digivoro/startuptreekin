@@ -7,9 +7,24 @@
   font-weight: 600;
   text-align: center;
 }
-
 .footer__left {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+}
+
+@media (min-width: $sm) {
+  .footer {
+    padding: 3rem 10% 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: $small;
+    // color: $white;
+  }
+  .footer__left {
+    justify-content: start;
+  }
+  .footer__left-item {
+    margin-right: 2rem;
+  }
 }

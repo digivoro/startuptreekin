@@ -312,7 +312,7 @@ h2 {
 
 @media (min-width: 576px) {
   .price {
-    padding-top: 6rem;
+    padding-top: 8rem;
   }
 }
 .footer {
@@ -331,6 +331,22 @@ h2 {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 576px) {
+  .footer {
+    padding: 3rem 10% 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+
+  .footer__left {
+    justify-content: start;
+  }
+
+  .footer__left-item {
+    margin-right: 2rem;
+  }
+}
 .button {
   border: none;
   font-family: "Raleway", sans-serif;

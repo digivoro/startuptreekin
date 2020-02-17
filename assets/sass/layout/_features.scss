@@ -1,18 +1,15 @@
 .features {
   padding: 2rem;
 }
-
 .features__title {
   margin-bottom: 4rem;
 }
-
 .features__subtitle {
   font-family: $raleway;
   font-weight: $bold;
   font-size: $large;
   margin-bottom: 1rem;
 }
-
 .features__graph {
   margin-bottom: 2rem;
   border-bottom: 5px solid $spanish-gray;
@@ -20,7 +17,6 @@
     width: 100%;
   }
 }
-
 .features__text {
   font-family: $open-sans;
   font-weight: $regular;
