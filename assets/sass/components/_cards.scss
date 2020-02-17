@@ -36,3 +36,19 @@
 .card__list-item {
   margin-bottom: 1.5rem;
 }
+
+@media (min-width: $sm) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+  }
+
+  .card:first-child {
+    grid-column-start: 1;
+    grid-column-start: 2;
+  }
+  .card:last-child {
+    grid-column-start: 2;
+    grid-column-start: 3;
+  }
+}

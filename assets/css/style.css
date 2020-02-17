@@ -280,6 +280,23 @@ h2 {
   margin-bottom: 3rem;
 }
 
+@media (min-width: 576px) {
+  .features__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    column-gap: 6rem;
+  }
+
+  .features__graph {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .features__right {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+}
 .price {
   background-image: url("../img/bg-price.png");
   background-repeat: no-repeat;
@@ -293,6 +310,11 @@ h2 {
   color: #fff;
 }
 
+@media (min-width: 576px) {
+  .price {
+    padding-top: 6rem;
+  }
+}
 .footer {
   padding: 2rem;
   color: #8f9199;
@@ -366,6 +388,23 @@ h2 {
 
 .card__list-item {
   margin-bottom: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+  }
+
+  .card:first-child {
+    grid-column-start: 1;
+    grid-column-start: 2;
+  }
+
+  .card:last-child {
+    grid-column-start: 2;
+    grid-column-start: 3;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

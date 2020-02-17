@@ -28,3 +28,19 @@
   line-height: 1.5rem;
   margin-bottom: 3rem;
 }
+
+@media (min-width: $sm) {
+  .features__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    column-gap: 6rem;
+  }
+  .features__graph {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .features__right {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+}
