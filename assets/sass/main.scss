@@ -1,12 +1,8 @@
-@import "abstracts/functions";
-@import "abstracts/mixins";
-@import "abstracts/placeholders";
 @import "abstracts/variables";
 
 @import "vendors/bootstrap";
 @import "vendors/jquery-ui";
 
-@import "base/base";
 @import "base/reset";
 @import "base/typography";
 
@@ -18,9 +14,3 @@
 
 @import "components/buttons";
 @import "components/cards";
-
-@import "pages/home";
-@import "pages/contact";
-
-@import "themes/theme";
-@import "themes/admin";
