@@ -6,15 +6,16 @@
   letter-spacing: 2px;
   background-color: $white;
   cursor: pointer;
-
-  &:hover {
-  }
-  &:focus {
-  }
 }
 .button--primary {
   background-color: $ball-blue;
   color: $white;
+  &:hover {
+    background-color: $middle-blue;
+  }
+  &:focus {
+    background-color: $lavender-gray;
+  }
 }
 .button--large {
   padding: 1rem 0;

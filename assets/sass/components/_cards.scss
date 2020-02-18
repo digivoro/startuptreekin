@@ -5,6 +5,7 @@
   border: 1px solid $nickel;
 
   &:hover {
+    box-shadow: 0.5em 0.5em 10px 2px rgba($color: #000000, $alpha: 0.4);
   }
 }
 

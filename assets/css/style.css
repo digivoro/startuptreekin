@@ -270,6 +270,9 @@ h2 {
 }
 .features__graph svg {
   width: 100%;
+  animation-name: vanish;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
 
 .features__text {
@@ -280,6 +283,17 @@ h2 {
   margin-bottom: 3rem;
 }
 
+@keyframes vanish {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media (min-width: 576px) {
   .features__container {
     display: grid;
@@ -356,9 +370,16 @@ h2 {
   background-color: #fff;
   cursor: pointer;
 }
+
 .button--primary {
   background-color: #2ab7ca;
   color: #fff;
+}
+.button--primary:hover {
+  background-color: #77d1dd;
+}
+.button--primary:focus {
+  background-color: #c7c8cc;
 }
 
 .button--large {
@@ -376,6 +397,10 @@ h2 {
   padding: 2.5rem 1rem;
   border: 1px solid #726f73;
 }
+.card:hover {
+  box-shadow: 0.5em 0.5em 10px 2px rgba(0, 0, 0, 0.4);
+}
+
 .card__title {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
